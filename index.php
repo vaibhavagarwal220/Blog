@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
 <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
-    <script>
-
+<script type="text/javascript">
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 });
@@ -58,6 +56,7 @@ $(document).ready(function(){
                 </li>
             </ul>
         </nav><br>
+
         <div id=mycarousel class="carousel slide col-sm-8 col-sm-offset-2" data-ride=carousel>
             <ol class="carousel-indicators"><li data-target=#mycarousel data-slide-to="0" class=active></li>
             <li data-target=#mycarousel data-slide-to="1"></li><li data-target=#mycarousel data-slide-to="2"></li><li data-target=#mycarousel data-slide-to="3"></li></ol>
@@ -131,16 +130,11 @@ for($i=0;$i<$rows;$i++)
 
            
 
-
-        </section>
-
-        <aside>
-
             <section id=recmain>
                 <h2 id=rc>Recent news</h2><marquee direction=up>
                 <h3 class=rect>New Website</h3><h4 class=recst>Learn To make a new website</h4>
                 <h3 class=rect>PHP Scripts</h3><h4 class=recst>Make your web pages interactive</h4></marquee>
-            </section>
+     </section>
 
             <section id=addrmain>
 
@@ -158,11 +152,13 @@ for($i=0;$i<$rows;$i++)
 
         </aside>
 
-
     <div class="container-fluid">
         
         <div class=row>
+        
+    <div class="container-fluid">
         <h3 class="text-center">CONTACT</h3>
+        <div class=row>
         <div class=col-sm-5>
             <p><span class="glyphicon glyphicon-map-marker"></span> B6 Hostel,IIT Mandi</p>
             <p><span class="glyphicon glyphicon-phone"></span> 9736260564</p>
@@ -231,10 +227,7 @@ for($i=0;$i<$rows;$i++)
     <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
     <a data-toggle="popover" title="i am header" data-content="i am content">Toggle popover</a>
     <br><br>-->
-            <footer id=newf>
-&copy; Vaibhav Agarwal 2016 All Rights Reserved
-        </footer>
-    
+            
 </body>
 </html>
 
@@ -274,3 +267,7 @@ if(isset($_POST['pttl'])&&isset($_POST['pauth'])&&isset($_POST['pcont'])&&isset(
   }
 
 ?>
+    
+    
+</body>
+</html>

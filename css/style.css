@@ -1,9 +1,9 @@
 
+*{font-family: Tahoma;}
 
 header, section, footer, aside, nav, article, figure, figcaption {display: block;}
 
 nav,footer{clear: both;}
-
 nav ul{border-radius: 10px;}
 
 nav li{display: inline; list-style: none;margin: 15px;font-size: 20px;}
@@ -34,10 +34,20 @@ h2.ttl{width: 300px;margin-left: 330;font-family: Tahoma;float: left;}
 h3.subttl{width: 600px;margin-left: 350;line-height: 17px; font-family: Tahoma;float: left;}
 
 
+
 #aushd{width: 600px;text-align: center;margin: auto;}
 
 h1.hd{padding:30px;margin:5px;border-radius:10px;letter-spacing: 4px;width: 94%;}
         
+
+
+#newf{clear: both;text-align: center;padding: 17px;margin:20px;border-radius: 10px;font-family: sans-serif;}
+        
+a,a:visited {text-decoration:none;text-transform:uppercase;font-family: sans-serif;}
+
+a.on {text-decoration:none;text-transform:uppercase; font-family: sans-serif;}
+
+a:hover {text-decoration:none;text-transform:uppercase;font-family: sans-serif;}
 
 
 #newf{clear: both;text-align: center;padding: 17px;margin:20px;border-radius: 10px;font-family: sans-serif;}
@@ -47,6 +57,7 @@ figure{float:left;background-position: center;}
 
 
 #rc{width: 200px;text-align: center;}
+
 #recmain{padding:10px;margin-bottom: 20px;
 line-height: 17px;}
 
@@ -59,6 +70,7 @@ h3.rect{font-weight: lighter;text-align: justify;}
 h4.recst{font-weight: lighter;text-align: justify;}
 .gradient {
 background-image: radial-gradient(rgb(22,185,233),
+
 rgb(50,205,198));}
 
 #devl {width:180px;text-align: center;}
@@ -68,6 +80,7 @@ rgb(50,205,198));}
 float: left;
 width: 72%;margin: 5px;
 padding:25px;}
+}
 
     article {
 clear: both;
@@ -79,8 +92,10 @@ width: 25%;
 float: left;
 padding: 0px 0px 0px 0px;
 margin-left: 15px;}
-
 #dev{width: 200px;text-align: center;padding:5px;}
 *{font-family: sans-serif;}
 .ppor{width:1000px;height:300px;}
 
+=======
+#dev{width: 200px;text-align: center;padding:5px;}
+>>>>>>> df29d1867dca248daa86492e6e609f38bc1ebb9a

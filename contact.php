@@ -69,8 +69,5 @@
             </tr>
             
         </table>
-        <footer id=newf>
-&copy; Vaibhav Agarwal 2016 All Rights Reserved
-        </footer>
     </div></body>
 </html>

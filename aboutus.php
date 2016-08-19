@@ -41,9 +41,6 @@
             </article>
             
             
-        </section>
-            <footer id=newf>
-&copy; Vaibhav Agarwal 2016 All Rights Reserved
-        </footer></div>
+        </section></div>
     </body>
 </html>
